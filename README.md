@@ -2,6 +2,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <style>
     :root {
       --bg-color: #121212;
       --card-color: #1e1e1e;
@@ -39,11 +40,6 @@
       gap: 20px;
     }
 
-    .form-container h2 {
-      text-align: center;
-      margin-top: 0;
-    }
-
     .form-header {
       text-align: center;
       margin-bottom: 10px;
@@ -51,7 +47,7 @@
 
     .form-header img {
       width: 60px;
-      margin-bottom: 10px;
+      margin-bottom: 0;
     }
 
     fieldset {
@@ -129,7 +125,6 @@
   <div class="form-container">
     <div class="form-header">
       <img src="https://cdn-icons-png.flaticon.com/512/747/747310.png" alt="Calendário">
-      <h2>CADASTRO DE FOLGA FUNCIONÁRIOS</h2>
     </div>
     <form id="form" method="POST" action="https://script.google.com/macros/s/AKfycbwh-YUwL2o3_i-bfcV9RMzLcoI98vyyGwEXf4LHlG5KJ59gIAlUe1_VVlFQMBqU6PwR/exec">
       <fieldset class="form-group" id="filialGroup">
